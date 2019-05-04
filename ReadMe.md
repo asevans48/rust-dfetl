@@ -4,7 +4,7 @@ This crate provides ETL functions for the data frame library.
 
 Functions planned are:
 
-- basic mathematics included in the dataframe
+- basic mathematics
 - GIS functions
 - Address Parsing with libpostal
 - Phone number parsing and validation
@@ -12,6 +12,7 @@ Functions planned are:
 - basic string manipulation, splits, and joins, replace, regex functions
 - lsh key formation
 - murmurhash key creation
+- deduplication (hashin, threshold with lsh)
 - data conversions
 
 License
